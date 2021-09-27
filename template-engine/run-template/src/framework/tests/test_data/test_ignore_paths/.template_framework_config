@@ -1,0 +1,7 @@
+{
+"ignorePaths": [
+    "terraform/*",
+    "some_folder/sub_dir/*",
+    "some_folder/file.txt"
+]
+}

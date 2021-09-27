@@ -1,0 +1,11 @@
+{
+  "input_text": "just a test",
+  "input_bool": false,
+  "input_int": 10,
+  "any_text_with_items": "java",
+  "input_days": [
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ]
+}

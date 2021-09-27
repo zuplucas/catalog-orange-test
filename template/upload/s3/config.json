@@ -1,0 +1,43 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-shell-bat-builder",
+  "inputs": [
+    {
+      "cache": {
+      "active": true,
+      "newLabel": "Type new value. ",
+      "qty": 3
+      },
+      "label": "Type a name file to upload without extension: ",
+      "name": "NAME_FILE",
+      "required": true,
+      "tutorial": "Type a name file to upload without extension",
+      "type": "text"
+    },
+    {
+      "cache": {
+      "active": true,
+      "newLabel": "Type new value. ",
+      "qty": 3
+      },
+      "label": "Type a bucket name to upload: ",
+      "name": "NAME_BUCKET",
+      "required": true,
+      "tutorial": "Type a bucket name to upload",
+      "type": "text"
+    },
+    {
+      "name": "aws_access_key_id",
+      "type": "CREDENTIAL_AWS_ACCESSKEYID"
+    },
+    {
+      "name": "aws_secret_access_key",
+      "type": "CREDENTIAL_AWS_SECRETACCESSKEY"
+    },
+    {
+      "name" : "aws_session_token",
+      "type" : "CREDENTIAL_AWS_SESSIONTOKEN"
+    }
+  ],
+  "template": "shell-bat",
+  "templateRelease:": "2.16.2"
+}

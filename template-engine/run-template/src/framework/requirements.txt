@@ -1,0 +1,7 @@
+questionary
+pyyaml
+hiyapyco
+Jinja2<3,>1
+jsonmerge>=1.8.0
+jinja2-strcase
+unidecode>=1.2.0

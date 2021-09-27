@@ -1,0 +1,14 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-python3-builder",
+  "inputs": [
+    {
+      "label": "INPUT_JSON",
+      "name": "RIT_INPUT_JSON",
+      "type": "text"
+    },
+    {
+      "name": "RIT_CREDENTIAL_GITHUB_TOKEN",
+      "type": "CREDENTIAL_GITHUB_TOKEN"
+    }
+  ]
+}

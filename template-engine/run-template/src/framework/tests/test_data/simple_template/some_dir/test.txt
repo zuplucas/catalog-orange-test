@@ -1,0 +1,2 @@
+This is the msg: {{inputs.msg}}
+This is a snake msg: {{inputs.msg|to_snake}}

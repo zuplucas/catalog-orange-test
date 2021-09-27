@@ -1,0 +1,36 @@
+name: "any_name"
+description: "any_description"
+inputs:
+  - label: "Type your name: "
+    name: "input_text"
+    type: text
+  - label: "Tell us a secret: "
+    name: "input_password"
+    type: password
+  - label: "42 is the answer ?"
+    name: "input_bool"
+    type: bool
+  - label: "what is your favorite number ?"
+    name: "input_int"
+    type: int
+    default: 10
+  - label: "Select the best language:"
+    type: text
+    name: "any_text_with_items"
+    items:
+        - "python"
+        - "java"
+        - "golang"
+        - "javascript"
+    default: "python"
+  - label: "Choose one or more days: "
+    type: multiselect
+    name: "input_days"
+    items:
+      - "Monday"
+      - "Tuesday"
+      - "Wednesday"
+      - "Thursday"
+      - "Friday"
+      - "Saturday"
+      - "Sunday"
